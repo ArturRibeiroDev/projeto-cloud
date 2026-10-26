@@ -7,7 +7,7 @@ app.use(express.json())
 const PORT = 3000
 
 app.get("/", (request, response) => {
-    response.send("Bem vindo ao meu site! Meu e do Gustavo")
+    response.send("Bem vindo ao meu site! Meu e do Gustavo, e agora mostrando ao professor")
 })
 
 app.get("/produtos", (request, response) => {
